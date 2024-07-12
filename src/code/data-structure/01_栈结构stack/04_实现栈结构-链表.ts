@@ -1,4 +1,4 @@
-import IStack from "../../type/IStack";
+import IStack from "../../interface/IStack";
 
 class LinkedStack<T> implements IStack<T> {
   // 创建一个链表结构

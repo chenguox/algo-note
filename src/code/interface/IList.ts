@@ -1,4 +1,4 @@
-export default interface IList<T> {
+interface IList<T> {
   // peek
   peek(): T | undefined
   // 判断是否为空
@@ -6,3 +6,5 @@ export default interface IList<T> {
   // 元素的个数
   size(): number
 }
+
+export default IList;
