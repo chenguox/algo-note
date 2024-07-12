@@ -1,4 +1,4 @@
-import IStack from "../type/IStack";
+import IStack from "../../type/IStack";
 
 class ArrayStack<T> implements IStack<T> {
   private data: T[] = [];
